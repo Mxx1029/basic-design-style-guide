@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    max-width: 100%;
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#title {
+    text-indent: 7.25%;
+    margin: 1.5em 0;
+}
+
+.box {
+    border: 3px solid #969696;
+    max-width: 85%;
+    margin: 1.5em auto;
+
+}
+
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.subtitle {
+    margin: 1em 0.5em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1em 1.25em;
+}
+
+.color-box {
+    height: 200px;
+    width: 175px;
+    padding: 0.75em;
+    margin: 0.35em;
+}
+
+.position {
+    position: relative;
+    top: 50%;
+}
+
+h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+}
+
+ul {
+    font-size: 12px;
+    list-style: none;
+    columns: 2;
+}
+
+#home {
+    background-color: #ededeb;
+}
+
+#template {
+    background-color: #f4f5f0;
+}
+
+#dark {
+    background-color: #4c4d4b;
+    color: #fff;
+}
+
+#typo {
+    background-color: #333332;
+    color: #fff;
+}
+
+#text {
+    background-color: #5cb86e;
+    color: #fff;
+}
+
+.font-box h3 {
+    text-decoration: underline;
+}
+
+.font-box p {
+    line-height: 1.75em;
+}
+
+.font-box {
+    margin-bottom: 1.5em;
+    font-size: 1.25em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+}
+
+.text-box {
+    margin-bottom: 1em;
+    line-height: 1.75em;
+}
+
+.sub {
+    margin-bottom: 0.35em;
+}
+
+.special-flex {
+    flex-direction: column;
+}
+
+.text-box ul {
+    columns: 1;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+#cousine h3,
+#cousine p {
+    font-family: 'Cousine', monospace;
+}
+
+
+#list {
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+}
